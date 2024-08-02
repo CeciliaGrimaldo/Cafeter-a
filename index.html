@@ -1,99 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background: rgb(197, 143, 118);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.container{
- width: 1200px;
-background:white;
- margin: 10px auto;
-}
-.superior{
-    background: #c99d88;
-    overflow: hidden; 
-}
-.logo{
-    float: left;
-    width: 300px;
-    padding: 25px;
-}
-/*estilos para el menú de opciones*/
-.menú{
-    float: left;
-padding: 50 px;
-}
-.opciones li{
-    float: left;
-    list-style: none;
-}
-.opciones li a{
-        color: white;
-        padding: 25px;
-        text-decoration: none;
-        border:1px solid white;
-    }
-.opciones li a:hover{
-    background: #b96e50;
-}
-/*estilos para el cuerpo*/
-.cuerpo{
-    overflow: hidden;
-}
-.caja{
-    float: left;
-    width: 380px;
-    margin: 10px;
-}
-.subtitulo{
-    background: #e4aa52;
-    padding: 1 px;
-}
-.servicios{
-    color: rgb(5, 2, 2);
-   text-align: center; 
-   padding: 15px 0; 
-}
-.efecto:hover{
-    opacity: 0.9;
-    cursor: pointer;
-}
-.contenido{
-   padding: 25px;
-    text-align: justify;
-}
-.boton{
-     padding: 15px 20px;
-     margin: 12 px 0;
-     color: white;
-     background-color: rgb(92, 78, 141);
-     border-radius: 5px;
-}
-.boton:hover{
-    background: #829ec2;
-    cursor: pointer;
-}
-.titulo{
-    text-align: center;
-    padding: 20px 0 15px 0;
-    color: black;
-}
-/*estilos del footer*/ 
-.pie{
-    background: #829ec2;
-    overflow: hidden;
-}
-.izquierda{
-   float: left; 
-   width: 550px;
-   padding: 15px;
-}
-.derecha{
-   float: left;
-   width: 550px; 
-}
-.siguenos{
-    padding:15px 0; 
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <title>Cafetería</title>
+    <link rel="stylesheet" href="Stylo1.css">
+</head>
+<body>
+    <div class="container">
+        <header class="superior">
+            <div class="logo">
+<img src="Chimmy/Logo-Chimmy.png" alt="" width="150">
+            </div>
+            <nav class="menu">
+        <ul class="opciones">
+
+         <li><a href="">INICIO</a></li>
+         <li><a href="">NOSOTROS</a></li>  
+        <li><a href="">MENÚ</a></li> 
+         <li><a href="">CONTACTO</a></li>
+          </ul>
+            </nav>
+        </header>
+        <section class="slider">
+          <img src="Chimmy/Banner chimmy.png" alt="" width="100%" height="100%"> 
+        </section>
+        <section class="cuerpo">
+            <h1 class="titulo">
+               <center>Bienvenido a la Cafetería Chimmy
+               </center>
+            </h1>
+            <article class="caja">
+           <div class="subtitulo">
+            <center> <img src="Chimmy/Americano.jpeg" alt="" width="383" class="efecto"></center>
+           <h3 class="AMERICANO">
+         <center> CAFÉ AMERICANO</center> 
+           </h3>
+           </div> 
+           <div class="contenido">
+            <p>El café americano es la bebida caliente ideal para las personas
+                que quieren tomar un delicioso espresso, pero porque toleran el 
+                sabor tan intenso del expresso.t! </p>
+
+            </div>
+            </article>
+            <article class="caja">
+                <div class="subtitulo">   
+                   <center><img src="Chimmy/CAPUCCHINO.jpeg"alt="" width="380" class="efecto"> </center> 
+              <h3 class="servicios">
+           <center> CAFÉ  CAPUCCHINO</center> 
+            </h3>
+                </div>
+                <div class="contenido">
+                    <p>El capuchino tiene su origen en Italia. Este tipo de café está compuesto
+                         por una cantidad mayor de leche que de café, dando así un sabor más suave.
+                          Además, uno de los puntos característicos del capuchino, es la cubierta de 
+                          crema espumosa que presenta en la parte de arriba.</p>
+              
+                </div>  
+            </article>
+            <article class="caja">
+                <div class="subtitulo">
+                 <center>  <img src="Chimmy/Latte.jpeg"alt="" width="370" class="efecto"></center>  
+                    <h3 class="servicios">
+                       CAFÉ LATTE
+                       </h3>
+                </div>
+<div class="contenido">
+    <p>La palabra Latte viene del italiano y significa "café con leche,
+         sin embargo la preparación es lo que distingue a esta bebida, pues
+          su proceso puede considerar todo un arte, es un preparado a base
+         de café espresso y leche al vapor.! </p>
+     
+</div>
+            </article>
+        </section>
+     <footer class="pie">
+      <div class="izquierda">
+<img src="Chimmy/CHIMMY SENTADO.png" alt="" width="120" height="110">
+<p class="abajo">Hola! Somos la Cafetería chimmy y queremos invitarte 
+    a que nos sigas en todas nuesras redes sociales y cuentas oficiales
+     para que más gente conozca y ame nuestros cafés tanto como tú;
+      ¡Gracias con amor, Chimmy! <3 </p>
+      </div>
+      <div class="derecha">
+<center><p class="siguenos">Siguenos</p></center>
+<center>
+    <img src="REDES/Facebook.jpg" alt="" width="100" height="90">
+    <img src="REDES/Instagram.jpg" alt="" width="100"  height="90">
+    <img src="REDES/Youtube.jpg" alt="" width="115">
+</center>
+      </div>
+     </footer>   
+    </div>
+</body>
